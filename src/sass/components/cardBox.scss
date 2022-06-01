@@ -1,0 +1,87 @@
+.cardBigBox{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardLevel{
+    width: min(100%, 800px);
+    margin: 40px 0;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+.cardLevelLeft{
+    flex-direction: row;
+}
+.cardLevelRight{
+    flex-direction: row-reverse;
+}
+.cardBox{
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.cardBox img{
+    height: 100%;
+}
+.prestationCard{
+    background-color: $browntransparent;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.prestationCardLeft{
+    left: 5%;
+}
+.prestationCardRight{
+    right: 5%;
+}
+.prestationCard .title{
+    font-family: 'IM Fell English SC', serif;
+    color: $yellow;
+    font-size: max(20px, 2.3vw);
+    padding: 1em 1em;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+}
+.prestationCard .info{
+    font-family: 'Work Sans';
+    color: white;
+    font-size: max(12px, 1vw);
+    font-weight: 200;
+}
+.line{
+    width: 30vw;
+    border-top: 1px solid $border;
+    position: absolute;
+    bottom: 5%;
+}
+.lineLeft{
+    left: min(50%, 160px);
+}
+.lineRight{
+    right: min(50%, 160px);
+}
+.price{
+    color: white;
+    font-family: 'Work Sans';
+    font-weight: 100;
+    background-color: $mainboardtransparent;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 6%;
+    
+}
+.priceLeft{
+    left: min(50%, 160px);
+}
+.priceRight{
+    right: min(50%, 160px);
+}
