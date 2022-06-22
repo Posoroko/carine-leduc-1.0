@@ -1,4 +1,4 @@
-@import "../abstracts/variables.scss";
+@use "../abstracts" as *;
 
 .cardBigBox{
     width: 100%;
@@ -30,7 +30,7 @@
     height: 100%;
 }
 .prestationCard{
-    background-color: $browntransparent;
+    background-color: #2d241fb2;
     border-radius: 10px;
     position: absolute;
     top: 50%;
@@ -45,7 +45,7 @@
 }
 .prestationCard .title{
     font-family: 'IM Fell English SC', serif;
-    color: $yellow;
+    color: #E5CB8A;
     font-size: max(20px, 2.3vw);
     padding: 1em 1em;
     line-height: 30px;
@@ -60,7 +60,7 @@
 }
 .line{
     width: 30vw;
-    border-top: 1px solid $border;
+    border-top: 1px solid #4c4431;
     position: absolute;
     bottom: 5%;
 }
@@ -74,7 +74,7 @@
     color: white;
     font-family: 'Work Sans';
     font-weight: 100;
-    background-color: $mainboardtransparent;
+    background-color: #201e1db9;
     padding: 5px;
     border-radius: 5px;
     position: absolute;

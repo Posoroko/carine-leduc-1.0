@@ -1,25 +1,25 @@
 /*----- abstracts -----*/
 
-        @import './abstracts/dev-classes.scss';
-        @import './abstracts/breakpoints.scss';
-        @import './abstracts/reset.scss';
-        @import './abstracts/variables.scss';
+        @use './abstracts/dev-classes.scss';
+        @use './abstracts/breakpoints.scss';
+        @use './abstracts/reset.scss';
+        // @use './abstracts/variables.scss';
 
 /*----- base -----*/
 
-        @import './base/fonts.scss';
-        @import './base/flex-classes.scss';
-        @import './base/styling-classes.scss';
+        @use './base/fonts.scss';
+        @use './base/flex-classes.scss';
+        @use './base/styling-classes.scss';
 
 /*----- layout -----*/
 
-        @import './layout/header.scss';
-        @import './layout/footer.scss';
+        @use './layout/header.scss';
+        @use './layout/footer.scss';
         
 /*----- pages -----*/
 
-        @import './pages/home.scss';
+        @use './pages/home.scss';
 
-/*----- pages -----*/
+/*----- components -----*/
 
-        @import './components/cardBox.scss';
+        @use './components/cardBox.scss';
