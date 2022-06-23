@@ -97,7 +97,6 @@ main{
 
 .mainBoard{
     width: min(96%, 1500px);
-    min-height: 100vh;
     background-color: #201E1D;
     padding: max(5px, 5vw);
     border: 1px solid #4c4431;
@@ -141,4 +140,31 @@ main{
     left: 50%;
     transform: translate(-50%, 50%);
     z-index: -1;
+}
+
+.socialBox{
+    width: min(100%, 800px)
+}
+
+.logoBox {
+    width: 30px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.logo {
+    fill: #E5CB8A;
+}
+
+.social {
+    color: #E5CB8A;
+}
+
+.credits{
+    color: rgb(143, 143, 143);
+    font-weight: 100;
+    font-style: italic;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
 }
